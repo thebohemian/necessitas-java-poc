@@ -1,0 +1,7 @@
+#!/bin/sh
+(cd v1 && ./compile)
+(cd v2 && ./compile)
+(cd v2_2 && ./compile)
+(cd app_v1 && ./compile)
+(cd app_v2 && ./compile)
+(cd app_v2_2 && ./compile)
